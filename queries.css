@@ -10,7 +10,9 @@
   }
 
   .img-container {
-    width: inherit;
+    width: none;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
   }
 
   .img-product {
@@ -68,5 +70,17 @@
     position: absolute;
     z-index: 1;
     opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
   }
 }
