@@ -60,6 +60,8 @@ Users should be able to:
 
   - how to set the little arrow of the tooltip 😆. it's actually setting solid border but making three out of four edges transparent.
 
+  - Making the tooltip overflow the card while maintaining the border-radius on the picture side was harder than I thought. I set the card's overflow to visible, and added border-radius and overflow attributes to the image's container. I adjusted that container's width until it matches the width of the image.
+
 ### Continued development
 
 - I should improve:
