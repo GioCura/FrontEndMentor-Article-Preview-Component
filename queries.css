@@ -1,0 +1,72 @@
+@media (min-width: 800px) {
+  .card {
+    flex-direction: row;
+    max-width: 71rem;
+    overflow: visible;
+  }
+
+  .bottom-container.open {
+    background-color: inherit;
+  }
+
+  .img-container {
+    width: inherit;
+  }
+
+  .img-product {
+    width: 27.5rem;
+    height: 27rem;
+
+    object-fit: cover;
+    object-position: 0% 17%;
+    vertical-align: bottom;
+  }
+
+  .caption-container {
+    margin: 3rem 3.4rem 1rem;
+  }
+
+  .bottom-container {
+    padding: 1rem 4.4em 3rem 3.4rem;
+  }
+
+  .open .profile {
+    pointer-events: auto;
+    position: static;
+    z-index: 1;
+  }
+
+  .share {
+    padding: 1.5rem 4rem;
+    border-radius: 8px;
+    background-color: hsl(217, 19%, 35%);
+    filter: drop-shadow(4px 8px 8px hsla(216, 20%, 20%, 0.12));
+
+    top: -70%;
+    left: 58.5%;
+    opacity: 0;
+
+    transition: all 0.4s ease;
+    pointer-events: none;
+  }
+
+  .share:after {
+    content: "";
+    border: 1.2rem solid;
+    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .open .share {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+  }
+}

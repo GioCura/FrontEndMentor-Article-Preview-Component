@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="img-container">
+          <img
+            src="images/drawers.jpg"
+            alt="A picture of the drawers for sale"
+            class="img-product"
+          />
+        </div>
+        <div class="caption-and-bottom">
+          <div class="caption-container">
+            <h1 class="caption-main">
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+            <p class="caption-sub">
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I've got some simple tips to
+              help you make any room feel complete.
+            </p>
+          </div>
+          <div class="bottom-container">
+            <div class="profile">
+              <img
+                src="images/avatar-michelle.jpg"
+                alt="A picture of Michelle Appleton"
+                class="avatar"
+              />
+              <div class="author-info">
+                <h3 class="name">Michelle Appleton</h3>
+                <span class="date">28 Jun 2020</span>
+              </div>
+            </div>
+            <div class="share">
+              <h2>Share</h2>
+              <a href="#" class="link-socmed">
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="Facebook icon"
+                  class="link-socmed-icon"
+                />
+              </a>
+              <a href="#" class="link-socmed">
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="Twitter icon"
+                  class="link-socmed-icon"
+                />
+              </a>
+              <a href="#" class="link-socmed">
+                <img
+                  src="images/icon-pinterest.svg"
+                  alt="Pinterest icon"
+                  class="link-socmed-icon"
+                />
+              </a>
+            </div>
+            <button class="btn-share">
+              <svg
+                class="btn-icon"
+                mlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="13"
+              >
+                <path
+                  fill="currentColor"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/GioCura">Gio Cura</a>.
+    </footer>
+  </body>
+</html>
