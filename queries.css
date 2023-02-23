@@ -10,6 +10,7 @@
   }
 
   .img-container {
+    width: 95.35%;
     overflow: hidden;
     border-radius: 10px 0 0 10px;
   }
@@ -69,12 +70,6 @@
     position: absolute;
     z-index: 1;
     opacity: 1;
-  }
-}
-
-@media (max-width: 799px) {
-  .img-container {
-    width: 100%;
   }
 }
 
