@@ -25,12 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot-desktop.png)
+![](./images/screenshot-desktop-active.png)
+![](./images/screenshot-mobile.png)
+![](./images/screenshot-mobile-active.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://gc8-articlepreview.netlify.app)
+- Solution URL: [Solution](https://github.com/GioCura/FrontEndMentor-Article-Preview-Component)
+- Live Site URL: [Live](https://gc8-articlepreview.netlify.app)
 
 ## My process
 
