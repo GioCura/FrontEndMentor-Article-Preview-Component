@@ -2,43 +2,23 @@
   .card {
     flex-direction: row;
     max-width: 71rem;
-    overflow: visible;
   }
 
-  .bottom-container.open {
-    background-color: inherit;
-  }
-
-  .img-container {
-    width: 95.35%;
-    overflow: hidden;
+  .card__image {
+    width: 27.5rem;
+    height: 27rem;
     border-radius: 10px 0 0 10px;
   }
 
-  .img-product {
-    width: 27.5rem;
-    height: 27rem;
-
-    object-fit: cover;
-    object-position: 0% 17%;
-    vertical-align: bottom;
-  }
-
-  .caption-container {
+  .card__caption {
     margin: 3rem 3.4rem 1rem;
   }
 
-  .bottom-container {
+  .card__bottom {
     padding: 1rem 4.4em 3rem 3.4rem;
   }
 
-  .open .profile {
-    pointer-events: auto;
-    position: static;
-    z-index: 1;
-  }
-
-  .share {
+  .card__socmed {
     padding: 1.5rem 4rem;
     border-radius: 8px;
     background-color: hsl(217, 19%, 35%);
@@ -52,7 +32,11 @@
     pointer-events: none;
   }
 
-  .share:after {
+  .card__socmed h2 {
+    font-size: 1.1rem;
+  }
+
+  .card__socmed:after {
     content: "";
     border: 1.2rem solid;
     border-color: hsl(217, 19%, 35%) transparent transparent transparent;
@@ -62,11 +46,18 @@
     left: 50%;
   }
 
-  h2 {
-    font-size: 1.1rem;
+  .card__bottom.card__bottom--socmed-show {
+    background-color: inherit;
+    border-radius: 0;
   }
 
-  .open .share {
+  .card__bottom--socmed-show .card__byline {
+    pointer-events: auto;
+    position: static;
+    z-index: 1;
+  }
+
+  .card__bottom--socmed-show .card__socmed {
     position: absolute;
     z-index: 1;
     opacity: 1;
