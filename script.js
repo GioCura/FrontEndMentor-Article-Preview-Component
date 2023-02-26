@@ -1,6 +1,6 @@
-const btnShareEL = document.querySelector(".btn-share");
-const bottomContainerEl = document.querySelector(".bottom-container");
+const cardButtonEl = document.querySelector(".card__button");
+const cardBottomEl = document.querySelector(".card__bottom");
 
-btnShareEL.addEventListener("click", function () {
-  bottomContainerEl.classList.toggle("open");
+cardButtonEl.addEventListener("click", function () {
+  cardBottomEl.classList.toggle("card__bottom--socmed-show");
 });
