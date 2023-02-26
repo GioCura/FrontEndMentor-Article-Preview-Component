@@ -27,64 +27,49 @@
   </head>
   <body>
     <main>
-      <div class="card">
-        <div class="img-container">
-          <img
-            src="images/drawers.jpg"
-            alt="A picture of the drawers for sale"
-            class="img-product"
-          />
-        </div>
-        <div class="caption-and-bottom">
-          <div class="caption-container">
-            <h1 class="caption-main">
+      <article class="card">
+        <img
+          src="images/drawers.jpg"
+          alt="A picture of the drawers for sale"
+          class="card__image"
+        />
+        <div class="card__textbox">
+          <div class="card__caption">
+            <h1 class="card__header">
               Shift the overall look and feel by adding these wonderful touches
               to furniture in your home
             </h1>
-            <p class="caption-sub">
+            <p class="card__description">
               Ever been in a room and felt like something was missing? Perhaps
               it felt slightly bare and uninviting. I've got some simple tips to
               help you make any room feel complete.
             </p>
           </div>
-          <div class="bottom-container">
-            <div class="profile">
+          <div class="card__bottom">
+            <div class="card__byline">
               <img
                 src="images/avatar-michelle.jpg"
                 alt="A picture of Michelle Appleton"
-                class="avatar"
               />
-              <div class="author-info">
-                <p class="name">Michelle Appleton</p>
-                <span class="date">28 Jun 2020</span>
+              <div>
+                <p class="card__author">Michelle Appleton</p>
+                <span class="card__date">28 Jun 2020</span>
               </div>
             </div>
-            <div class="share">
+            <div class="card__socmed">
               <h2>Share</h2>
-              <a href="#" class="link-socmed">
-                <img
-                  src="images/icon-facebook.svg"
-                  alt="Facebook icon"
-                  class="link-socmed-icon"
-                />
+              <a href="#" class="card__link">
+                <img src="images/icon-facebook.svg" alt="Facebook icon" />
               </a>
-              <a href="#" class="link-socmed">
-                <img
-                  src="images/icon-twitter.svg"
-                  alt="Twitter icon"
-                  class="link-socmed-icon"
-                />
+              <a href="#" class="card__link">
+                <img src="images/icon-twitter.svg" alt="Twitter icon" />
               </a>
-              <a href="#" class="link-socmed">
-                <img
-                  src="images/icon-pinterest.svg"
-                  alt="Pinterest icon"
-                  class="link-socmed-icon"
-                />
+              <a href="#" class="card__link">
+                <img src="images/icon-pinterest.svg" alt="Pinterest icon" />
               </a>
             </div>
-            <button aria-label="Share" class="btn-share">
-              <svg class="btn-icon" width="15" height="13">
+            <button aria-label="Share" class="card__button">
+              <svg width="15" height="13">
                 <path
                   fill="currentColor"
                   d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
@@ -93,7 +78,7 @@
             </button>
           </div>
         </div>
-      </div>
+      </article>
     </main>
 
     <footer class="attribution">
