@@ -43,6 +43,7 @@ Users should be able to:
 - CSS
 - Flexbox
 - Mobile-first workflow
+- (Updated 02/26/2023) - BEM
 
 ### What I learned
 
@@ -62,6 +63,8 @@ Users should be able to:
 
   - Making the tooltip overflow the card while maintaining the border-radius on the picture side was harder than I thought. I set the card's overflow to visible, and added border-radius and overflow attributes to the image's container. I adjusted that container's width until it matches the width of the image.
 
+    (Update 02/26/2023) - As I removed the unnecessary div that nested my img, I realized that I don't have to use overflow rules at all. I could just set a border-radius on the card, and then give a matching border radius pixel value to the img itself.
+
 ### Continued development
 
 - I should improve:
@@ -71,6 +74,12 @@ Users should be able to:
   - my routine of matching dimensions. I could look at Chrome Developer to get the exact pixels instead of just randomly setting the sizes until it fits.
 
   - how modular my code is. It's good practice to do these from scratch, but when it's time to build a full webpage, I want to speed it up by copying and pasting templates I made.
+
+(Update 02/26/23):
+
+- After learning about BEM, I revised this and three previous projects to follow that convention. I think that this makes the code more uniform and easier to follow.
+
+- While renaming classes, I also took out some redundant code. I realized that I habitually put things in divs and flexboxes, and assigning justify-content and align-items when there's no need. I have to stop being so decadent with that!
 
 ## Author
 
