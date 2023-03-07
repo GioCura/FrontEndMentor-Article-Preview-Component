@@ -24,9 +24,12 @@ body {
   height: 100%;
   background-color: hsl(210, 46%, 95%);
   font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-main,
 .card,
 .card__caption,
 .card__bottom,
@@ -36,7 +39,6 @@ main,
   display: flex;
 }
 
-main,
 .card,
 .card__bottom,
 .card__byline,
@@ -79,8 +81,7 @@ main,
 }
 
 main {
-  height: 90%;
-  justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .card {
